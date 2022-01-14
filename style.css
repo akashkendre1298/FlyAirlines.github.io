@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.bgcolor{
+	background-color: #cdecdf;
+}
+.city{
+	width: 100%;
+	height: 60vh;
+	background-image: url('images/city2.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
+
+
+
+
+.aeroplane{
+	display: block;
+	width: 500px;
+	height: 10px;
+}
+
+.aeroplane img{
+	width: 20%;
+	height: 20%;
+	margin-top: -460px;
+	position: absolute;
+	z-index: 1;
+	animation: animate 30s linear infinite;
+
+}
+
+@keyframes animate{
+	0%{
+		/* left: -20%; */
+	}
+	25%{
+		transform: translateX(325px);
+	}
+	50%{
+		transform:translateX(650px)
+	}
+	75%{
+		transform: translateX(975px);
+	}
+	
+	100%{
+		transform: translateX(1300px) ;
+	}
+}
+marquee{
+	height: 40px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+}
+.card3{
+	opacity: 0.5;
+}
+
+/*------------------------------------------- trips css ------------------------------------------*/
+@font-face{
+	font-family: kushan;
+	src:url(kaushan.otf);
+}
+.font{
+	font-family: kushan;
+	
+}
+.font>h3{
+	font-size: 70px;
+}
+.card1{
+	float: left;
+}
